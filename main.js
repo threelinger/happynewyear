@@ -100,10 +100,10 @@ function clickStone(thisStone){
     //判断对方是否有棋可下
         if(curstone==White&&checkNext(Black) ){
             curstone = Black;
-            message_txt.innerHTML = "该黑棋走了";
+            message_txt.innerHTML = "该邵宇芳走了";
         }else if(curstone==Black&&checkNext(White)){
             curstone = White;
-                message_txt.innerHTML = "该白棋走了";
+                message_txt.innerHTML = "该王一博走了";
         }else if(checkNext(curstone)){
             message_txt.innerHTML = "对面无棋可走，请继续";
         }else{
