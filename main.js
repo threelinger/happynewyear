@@ -41,7 +41,7 @@ function  initLevel(){
 
     DrawMap();
 
-    message_txt.innerHTML = "轮到黑棋";
+    message_txt.innerHTML = "轮到邵宇芳";
 }
 
 function DrawMap(){
@@ -68,9 +68,9 @@ function DrawMap(){
 
 function showMoveInfo(){
     if(curstone == Black){
-        message_txt.innerHTML = "轮到黑棋";
+        message_txt.innerHTML = "轮到邵宇芳";
     }else{
-        message_txt.innerHTML = "轮到白棋";
+        message_txt.innerHTML = "轮到王一博";
     }
 }
 
